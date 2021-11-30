@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+    margin: auto;
+    background-image: url("img/pagebackground.png");
+    background-position: center;
+}
+
+#top {
+    height: 200px;
+    background-image: url("img/bgsky3.jpg");
+    position:relative;
+}
+
+#top > p {
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+    font-style: italic;
+    color: darkblue;
+    margin-top: 0;
+}
+
+#top > img {
+    position: absolute;
+    right: 90px;
+    bottom: 60px;
+
+}
+
+#top > p~p {
+    font-size: 240%;
+    font-style: normal;
+}
+#news {
+    width: 250px;
+    background-color: #dddddd;
+    border: #999999;
+    border: 1px;
+    float: right;
+}
+
+#news > p {
+    color: #666666;
+    font-size: 90%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#news > h3 {
+    color: white;
+    background-color: blue;
+    font-size: 120%;
+    text-align: center;
+}
+
+#main {
+    width: 700px;
+}
+
+#main > div {
+    background-color: white;
+
+}
+
+#main > div > p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    color: black;
+    overflow:hidden;
+}
+
+#main img {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#main span {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover{
+    color: red;
+}
+
+#copyright{
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+    padding-left: 25%;
+    font-family: Arial, serif;
+}
+
+#gallery > .foto{
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border: 16px solid #999999;
+    float: left;
+    padding: 10px;
+
+}
+
+
+#bottom{
+    float: left;
+    background-color: #666666;
+    width: 960px;
+    height: 200px;
+}
+
+.block{
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding-left: 120px;
+    line-height: 2em;
+}
